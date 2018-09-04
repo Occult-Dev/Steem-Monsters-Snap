@@ -1,0 +1,107 @@
+{
+  "formatVersion": 3,
+  "maps": [
+    "map"
+  ],
+  "filtering": "pixelated",
+  "wrapping": "clampToEdge",
+  "pixelsPerUnit": 380,
+  "framesPerSecond": 10,
+  "opacity": 1,
+  "alphaTest": 0.1,
+  "frameOrder": "rows",
+  "grid": {
+    "width": 299,
+    "height": 260
+  },
+  "origin": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "animations": [
+    {
+      "id": "0",
+      "name": "Zintar Mortalis",
+      "startFrameIndex": 0,
+      "endFrameIndex": 0,
+      "speed": 1
+    },
+    {
+      "id": "1",
+      "name": "Lord Of Darkness",
+      "startFrameIndex": 1,
+      "endFrameIndex": 1,
+      "speed": 1
+    },
+    {
+      "id": "2",
+      "name": "Spineback Wolf",
+      "startFrameIndex": 2,
+      "endFrameIndex": 2,
+      "speed": 1
+    },
+    {
+      "id": "3",
+      "name": "Skeleton Assassin",
+      "startFrameIndex": 3,
+      "endFrameIndex": 3,
+      "speed": 1
+    },
+    {
+      "id": "4",
+      "name": "Haunted Spider",
+      "startFrameIndex": 4,
+      "endFrameIndex": 4,
+      "speed": 1
+    },
+    {
+      "id": "5",
+      "name": "Animated Corpse",
+      "startFrameIndex": 5,
+      "endFrameIndex": 5,
+      "speed": 1
+    },
+    {
+      "id": "6",
+      "name": "Undead Priest",
+      "startFrameIndex": 6,
+      "endFrameIndex": 6,
+      "speed": 1
+    },
+    {
+      "id": "7",
+      "name": "Twisted Jester",
+      "startFrameIndex": 7,
+      "endFrameIndex": 7,
+      "speed": 1
+    },
+    {
+      "id": "8",
+      "name": "Haunted Spirit",
+      "startFrameIndex": 8,
+      "endFrameIndex": 8,
+      "speed": 1
+    },
+    {
+      "id": "9",
+      "name": "Screaming Banshee",
+      "startFrameIndex": 9,
+      "endFrameIndex": 9,
+      "speed": 1
+    },
+    {
+      "id": "10",
+      "name": "Enchantress Of The Night",
+      "startFrameIndex": 10,
+      "endFrameIndex": 10,
+      "speed": 1
+    }
+  ],
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  }
+}

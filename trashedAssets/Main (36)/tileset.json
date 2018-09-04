@@ -1,0 +1,27 @@
+{
+  "formatVersion": 1,
+  "grid": {
+    "width": 175,
+    "height": 175
+  },
+  "tileProperties": {
+    "1_0": {
+      "type": "gray pebbles"
+    },
+    "2_0": {
+      "type": "dark pebbles"
+    },
+    "0_1": {
+      "type": "dark stone"
+    },
+    "1_1": {
+      "type": "mossy stone"
+    },
+    "0_0": {
+      "type": "swamp"
+    },
+    "2_1": {
+      "type": "water"
+    }
+  }
+}

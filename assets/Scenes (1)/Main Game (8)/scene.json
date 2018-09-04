@@ -1,0 +1,565 @@
+{
+  "formatVersion": 1,
+  "nodes": [
+    {
+      "id": "3",
+      "name": "Game World",
+      "children": [
+        {
+          "id": "1",
+          "name": "Player",
+          "children": [
+            {
+              "id": "0",
+              "name": "Camera",
+              "children": [],
+              "components": [
+                {
+                  "type": "Camera",
+                  "config": {
+                    "formatVersion": 1,
+                    "mode": "perspective",
+                    "fov": 95,
+                    "orthographicScale": 10,
+                    "viewport": {
+                      "x": 0,
+                      "y": 0,
+                      "width": 1,
+                      "height": 1
+                    },
+                    "depth": 0,
+                    "nearClippingPlane": 0.1,
+                    "farClippingPlane": 50
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "5",
+              "name": "Arm",
+              "children": [
+                {
+                  "id": "10",
+                  "name": "Polaroid",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "formatVersion": 1,
+                        "spriteAssetId": "78",
+                        "animationId": "1",
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -0.207,
+                    "y": 0.289,
+                    "z": -0.001
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 0.25,
+                    "y": 0.25,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                }
+              ],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "formatVersion": 1,
+                    "spriteAssetId": "71",
+                    "animationId": null,
+                    "horizontalFlip": false,
+                    "verticalFlip": false,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "basic",
+                    "shaderAssetId": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 0.16,
+                "y": -0.175,
+                "z": -0.105
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "11",
+              "name": "Polaroid Flash",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "formatVersion": 1,
+                    "spriteAssetId": "7",
+                    "animationId": null,
+                    "horizontalFlip": false,
+                    "verticalFlip": false,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": true,
+                    "opacity": 0,
+                    "materialType": "basic",
+                    "shaderAssetId": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": -0.107
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "12",
+              "name": "Event Text",
+              "children": [
+                {
+                  "id": "13",
+                  "name": "Event Text Border Top",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "TextRenderer",
+                      "config": {
+                        "formatVersion": 2,
+                        "fontAssetId": "70",
+                        "text": "",
+                        "alignment": "center",
+                        "verticalAlignment": "center",
+                        "size": null,
+                        "color": "1b1b1b",
+                        "overrideOpacity": false,
+                        "opacity": null
+                      },
+                      "id": "1"
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 0.1,
+                    "z": -0.001
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "14",
+                  "name": "Event Text Border Right",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "TextRenderer",
+                      "config": {
+                        "formatVersion": 2,
+                        "fontAssetId": "70",
+                        "text": "",
+                        "alignment": "center",
+                        "verticalAlignment": "center",
+                        "size": null,
+                        "color": "1b1b1b",
+                        "overrideOpacity": false,
+                        "opacity": null
+                      },
+                      "id": "1"
+                    }
+                  ],
+                  "position": {
+                    "x": 0.1,
+                    "y": 0,
+                    "z": -0.001
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "15",
+                  "name": "Event Text Border Bottom",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "TextRenderer",
+                      "config": {
+                        "formatVersion": 2,
+                        "fontAssetId": "70",
+                        "text": "",
+                        "alignment": "center",
+                        "verticalAlignment": "center",
+                        "size": null,
+                        "color": "1b1b1b",
+                        "overrideOpacity": false,
+                        "opacity": null
+                      },
+                      "id": "1"
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": -0.1,
+                    "z": -0.001
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                },
+                {
+                  "id": "16",
+                  "name": "Event Text Border Left",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "TextRenderer",
+                      "config": {
+                        "formatVersion": 2,
+                        "fontAssetId": "70",
+                        "text": "",
+                        "alignment": "center",
+                        "verticalAlignment": "center",
+                        "size": null,
+                        "color": "1b1b1b",
+                        "overrideOpacity": false,
+                        "opacity": null
+                      },
+                      "id": "1"
+                    }
+                  ],
+                  "position": {
+                    "x": -0.1,
+                    "y": 0,
+                    "z": -0.001
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                }
+              ],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "70",
+                    "text": "",
+                    "alignment": "center",
+                    "verticalAlignment": "center",
+                    "size": null,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "1"
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": -0.137,
+                "z": -0.102
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 0.01,
+                "y": 0.01,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            }
+          ],
+          "components": [
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "PlayerBehavior",
+                "propertyValues": {}
+              },
+              "id": "3"
+            }
+          ],
+          "position": {
+            "x": 1.5,
+            "y": 0.5,
+            "z": -1.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "2",
+          "name": "Level",
+          "children": [],
+          "components": [
+            {
+              "type": "TileMapRenderer",
+              "config": {
+                "formatVersion": 1,
+                "tileMapAssetId": "40",
+                "tileSetAssetId": null,
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic",
+                "shaderAssetId": null
+              },
+              "id": "0"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "TileMapParserBehavior",
+                "propertyValues": {}
+              },
+              "id": "1"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": -0.7071067811865475,
+            "y": 0,
+            "z": 0,
+            "w": 0.7071067811865476
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "4",
+          "name": "Walls",
+          "children": [],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "8",
+          "name": "Monster",
+          "children": [],
+          "components": [
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "MonsterBehavior",
+                "propertyValues": {}
+              },
+              "id": "1"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "MainGameScriptBehavior",
+            "propertyValues": {}
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    }
+  ]
+}

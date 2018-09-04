@@ -1,0 +1,114 @@
+{
+  "formatVersion": 3,
+  "maps": [
+    "map"
+  ],
+  "filtering": "pixelated",
+  "wrapping": "clampToEdge",
+  "pixelsPerUnit": 380,
+  "framesPerSecond": 10,
+  "opacity": 1,
+  "alphaTest": 0.1,
+  "frameOrder": "rows",
+  "grid": {
+    "width": 289,
+    "height": 292
+  },
+  "origin": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "animations": [
+    {
+      "id": "0",
+      "name": "Rexxie",
+      "startFrameIndex": 0,
+      "endFrameIndex": 0,
+      "speed": 1
+    },
+    {
+      "id": "1",
+      "name": "Lyanna Natura",
+      "startFrameIndex": 1,
+      "endFrameIndex": 1,
+      "speed": 1
+    },
+    {
+      "id": "2",
+      "name": "Minotaur Warrior",
+      "startFrameIndex": 2,
+      "endFrameIndex": 2,
+      "speed": 1
+    },
+    {
+      "id": "3",
+      "name": "Stone Golem",
+      "startFrameIndex": 3,
+      "endFrameIndex": 3,
+      "speed": 1
+    },
+    {
+      "id": "4",
+      "name": "Lizard Scout",
+      "startFrameIndex": 4,
+      "endFrameIndex": 4,
+      "speed": 1
+    },
+    {
+      "id": "5",
+      "name": "Goblin Sorcerer",
+      "startFrameIndex": 5,
+      "endFrameIndex": 5,
+      "speed": 1
+    },
+    {
+      "id": "6",
+      "name": "Flesh Golem",
+      "startFrameIndex": 6,
+      "endFrameIndex": 6,
+      "speed": 1
+    },
+    {
+      "id": "7",
+      "name": "Stonesplitter Orc",
+      "startFrameIndex": 7,
+      "endFrameIndex": 7,
+      "speed": 1
+    },
+    {
+      "id": "8",
+      "name": "Earth Elemental",
+      "startFrameIndex": 8,
+      "endFrameIndex": 8,
+      "speed": 1
+    },
+    {
+      "id": "9",
+      "name": "Swamp Thing",
+      "startFrameIndex": 9,
+      "endFrameIndex": 9,
+      "speed": 1
+    },
+    {
+      "id": "10",
+      "name": "Magi Of The Forest",
+      "startFrameIndex": 10,
+      "endFrameIndex": 10,
+      "speed": 1
+    },
+    {
+      "id": "11",
+      "name": "Spirit Of The Forest",
+      "startFrameIndex": 11,
+      "endFrameIndex": 11,
+      "speed": 1
+    }
+  ],
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  }
+}

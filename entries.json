@@ -1,0 +1,371 @@
+{
+  "nextEntryId": 122,
+  "nodes": [
+    {
+      "id": "4",
+      "name": "Fonts",
+      "type": null,
+      "children": [
+        {
+          "id": "70",
+          "name": "Font",
+          "type": "font"
+        },
+        {
+          "id": "118",
+          "name": "Mono Font",
+          "type": "font"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Audio",
+      "type": null,
+      "children": [
+        {
+          "id": "30",
+          "name": "Background Music",
+          "type": "sound"
+        },
+        {
+          "id": "112",
+          "name": "Camera Flash",
+          "type": "sound"
+        },
+        {
+          "id": "121",
+          "name": "Camera Shutter",
+          "type": "sound"
+        },
+        {
+          "id": "119",
+          "name": "Card Expand",
+          "type": "sound"
+        },
+        {
+          "id": "120",
+          "name": "Card Collapse",
+          "type": "sound"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Images",
+      "type": null,
+      "children": [
+        {
+          "id": "14",
+          "name": "Textures",
+          "type": null,
+          "children": [
+            {
+              "id": "31",
+              "name": "Grass",
+              "type": "sprite"
+            },
+            {
+              "id": "32",
+              "name": "Dark Stone",
+              "type": "sprite"
+            },
+            {
+              "id": "33",
+              "name": "Dark Pebbles",
+              "type": "sprite"
+            },
+            {
+              "id": "34",
+              "name": "Gray Pebbles",
+              "type": "sprite"
+            },
+            {
+              "id": "35",
+              "name": "Mossy Stone",
+              "type": "sprite"
+            }
+          ]
+        },
+        {
+          "id": "48",
+          "name": "Cards",
+          "type": null,
+          "children": [
+            {
+              "id": "69",
+              "name": "Card Background",
+              "type": "sprite"
+            },
+            {
+              "id": "84",
+              "name": "Earth",
+              "type": "sprite"
+            },
+            {
+              "id": "82",
+              "name": "Water",
+              "type": "sprite"
+            },
+            {
+              "id": "80",
+              "name": "Death",
+              "type": "sprite"
+            },
+            {
+              "id": "81",
+              "name": "Life",
+              "type": "sprite"
+            },
+            {
+              "id": "83",
+              "name": "Fire",
+              "type": "sprite"
+            }
+          ]
+        },
+        {
+          "id": "55",
+          "name": "Monsters",
+          "type": null,
+          "children": [
+            {
+              "id": "103",
+              "name": "Earth",
+              "type": null,
+              "children": [
+                {
+                  "id": "104",
+                  "name": "Full",
+                  "type": "sprite"
+                },
+                {
+                  "id": "106",
+                  "name": "Card",
+                  "type": "sprite"
+                }
+              ]
+            },
+            {
+              "id": "97",
+              "name": "Water",
+              "type": null,
+              "children": [
+                {
+                  "id": "98",
+                  "name": "Full",
+                  "type": "sprite"
+                },
+                {
+                  "id": "108",
+                  "name": "Card",
+                  "type": "sprite"
+                }
+              ]
+            },
+            {
+              "id": "87",
+              "name": "Death",
+              "type": null,
+              "children": [
+                {
+                  "id": "92",
+                  "name": "Full",
+                  "type": "sprite"
+                },
+                {
+                  "id": "107",
+                  "name": "Card",
+                  "type": "sprite"
+                }
+              ]
+            },
+            {
+              "id": "94",
+              "name": "Life",
+              "type": null,
+              "children": [
+                {
+                  "id": "95",
+                  "name": "Full",
+                  "type": "sprite"
+                }
+              ]
+            },
+            {
+              "id": "100",
+              "name": "Fire",
+              "type": null,
+              "children": [
+                {
+                  "id": "101",
+                  "name": "Full",
+                  "type": "sprite"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Super Square",
+          "type": "sprite"
+        },
+        {
+          "id": "71",
+          "name": "Arm",
+          "type": "sprite"
+        },
+        {
+          "id": "78",
+          "name": "Camera",
+          "type": "sprite"
+        },
+        {
+          "id": "115",
+          "name": "Film Rolls",
+          "type": "sprite"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Map Stuff",
+      "type": null,
+      "children": [
+        {
+          "id": "38",
+          "name": "Tile Sets",
+          "type": null,
+          "children": [
+            {
+              "id": "109",
+              "name": "Main Tileset",
+              "type": "tileSet"
+            }
+          ]
+        },
+        {
+          "id": "39",
+          "name": "Levels",
+          "type": null,
+          "children": [
+            {
+              "id": "40",
+              "name": "Sandbox",
+              "type": "tileMap"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Models",
+      "type": null,
+      "children": [
+        {
+          "id": "44",
+          "name": "Gray Pebble Wall",
+          "type": "model"
+        },
+        {
+          "id": "45",
+          "name": "Dark Stone Wall",
+          "type": "model"
+        },
+        {
+          "id": "46",
+          "name": "Mossy Stone Wall",
+          "type": "model"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Scripts",
+      "type": null,
+      "children": [
+        {
+          "id": "12",
+          "name": "Camera Mover",
+          "type": "script"
+        },
+        {
+          "id": "9",
+          "name": "Main Game Data",
+          "type": "script"
+        },
+        {
+          "id": "42",
+          "name": "Main Game Script",
+          "type": "script"
+        },
+        {
+          "id": "111",
+          "name": "Main Menu Script",
+          "type": "script"
+        },
+        {
+          "id": "47",
+          "name": "Tile Map Parser",
+          "type": "script"
+        },
+        {
+          "id": "77",
+          "name": "Player Behavior",
+          "type": "script"
+        },
+        {
+          "id": "72",
+          "name": "Monster Behavior",
+          "type": "script"
+        },
+        {
+          "id": "116",
+          "name": "Album Script",
+          "type": "script"
+        },
+        {
+          "id": "117",
+          "name": "Card Setup Script",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Scenes",
+      "type": null,
+      "children": [
+        {
+          "id": "6",
+          "name": "Prefabs",
+          "type": null,
+          "children": [
+            {
+              "id": "113",
+              "name": "Monster Album",
+              "type": "scene"
+            },
+            {
+              "id": "114",
+              "name": "Card",
+              "type": "scene"
+            }
+          ]
+        },
+        {
+          "id": "110",
+          "name": "Main Menu",
+          "type": "scene"
+        },
+        {
+          "id": "8",
+          "name": "Main Game",
+          "type": "scene"
+        }
+      ]
+    }
+  ]
+}

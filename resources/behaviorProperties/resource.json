@@ -1,0 +1,121 @@
+{
+  "behaviors": {
+    "CameraMover": {
+      "scriptId": "12",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "camera_speed",
+          "type": "number"
+        },
+        {
+          "name": "camera_speed_multiplier",
+          "type": "number"
+        }
+      ]
+    },
+    "MainGameScriptBehavior": {
+      "scriptId": "42",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "in_album",
+          "type": "boolean"
+        },
+        {
+          "name": "bg_music",
+          "type": "any"
+        }
+      ]
+    },
+    "TileMapParserBehavior": {
+      "scriptId": "47",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "MonsterBehavior": {
+      "scriptId": "72",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "active",
+          "type": "boolean"
+        },
+        {
+          "name": "monster_type",
+          "type": "string"
+        },
+        {
+          "name": "monster_health",
+          "type": "number"
+        },
+        {
+          "name": "monsters",
+          "type": "any"
+        }
+      ]
+    },
+    "PlayerBehavior": {
+      "scriptId": "77",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "state",
+          "type": "string"
+        },
+        {
+          "name": "facing",
+          "type": "string"
+        },
+        {
+          "name": "moving_into_tile",
+          "type": "string"
+        },
+        {
+          "name": "stats",
+          "type": "any"
+        }
+      ]
+    },
+    "MainMenuScriptBehavior": {
+      "scriptId": "111",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "AlbumScriptBehavior": {
+      "scriptId": "116",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "CardSetupScriptBehavior": {
+      "scriptId": "117",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "monster_type",
+          "type": "string"
+        },
+        {
+          "name": "monster_name",
+          "type": "string"
+        },
+        {
+          "name": "enlarged",
+          "type": "boolean"
+        },
+        {
+          "name": "list_x_position",
+          "type": "number"
+        }
+      ]
+    }
+  }
+}
